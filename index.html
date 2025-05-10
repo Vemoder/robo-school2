@@ -1,0 +1,1559 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+      html {
+        scroll-behavior: smooth;
+      }
+
+      html,
+      body {
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+      }
+
+      .wrapper {
+        width: 1920px;
+        margin: 0 auto;
+        position: relative;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      .music_1_350 {
+        width: 1920px;
+        height: 4684px;
+        position: relative;
+        overflow: hidden;
+        background-color: #ffffff;
+      }
+
+      .music_1_400 {
+        width: 100%;
+        height: 1080px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        background-color: #141024;
+      }
+
+      .music_2_594 {
+        width: 100%;
+        height: 159px;
+        position: absolute;
+        top: 4525px;
+        left: 0;
+        background-color: #141024;
+      }
+
+      .music_1_401 {
+        position: absolute;
+        top: 344px;
+        left: 380px;
+        font-size: 70px;
+        font-family: Jost;
+        font-weight: 600;
+        line-height: 160%;
+        color: #ffffff;
+        white-space: pre;
+      }
+
+      .music_1_402 {
+        width: 478px;
+        position: absolute;
+        top: 476px;
+        left: 380px;
+        font-size: 20px;
+        font-family: Jost;
+        font-weight: 400;
+        line-height: 160%;
+        color: #ffffff;
+      }
+
+      .music_6_51 {
+        width: 478px;
+        position: absolute;
+        top: 4565px;
+        left: 100px;
+        font-size: 30px;
+        font-family: Jost;
+        font-weight: 700;
+        line-height: 160%;
+        color: #ffffff;
+        white-space: pre;
+      }
+
+      .music_6_53 {
+        width: 224px;
+        height: 22px;
+        position: absolute;
+        top: 43px;
+        left: 102px;
+      }
+
+      .music_1_457 {
+        width: 891px;
+        position: absolute;
+        top: 1200px;
+        left: 380px;
+        line-height: 160%;
+      }
+
+      .music_1_457_0_11 {
+        font-size: 30px;
+        font-family: Jost;
+        font-weight: 600;
+        line-height: 160%;
+        color: #141024;
+      }
+
+      .music_1_457_11_116 {
+        font-size: 30px;
+        font-family: Jost;
+        font-weight: 400;
+        line-height: 160%;
+        color: #141024;
+      }
+
+      .music_104401_28 {
+        width: 324px;
+        height: 32px;
+        position: absolute;
+        top: 38px;
+        left: 798px;
+      }
+
+      .music_1_441 {
+        position: absolute;
+        top: 0;
+        left: 0;
+        text-align: center;
+        font-size: 20px;
+        font-family: Jost;
+        font-weight: 400;
+        line-height: 160%;
+        color: #ffffff;
+        white-space: pre;
+      }
+
+      .music_1_442 {
+        position: absolute;
+        top: 0;
+        left: 119px;
+        text-align: center;
+        font-size: 20px;
+        font-family: Jost;
+        font-weight: 400;
+        line-height: 160%;
+        color: #ffffff;
+        white-space: pre;
+      }
+
+      .music_1_443 {
+        position: absolute;
+        top: 0;
+        left: 235px;
+        text-align: center;
+        font-size: 20px;
+        font-family: Jost;
+        font-weight: 400;
+        line-height: 160%;
+        color: #ffffff;
+        white-space: pre;
+      }
+
+      .music_1_446 {
+        position: absolute;
+        top: 30px;
+        left: 1565px;
+        text-align: right;
+        font-size: 30px;
+        font-family: Jost;
+        font-weight: 600;
+        line-height: 160%;
+        color: #ffffff;
+        white-space: pre;
+      }
+
+      .music_6_52 {
+        position: absolute;
+        top: 4565px;
+        left: 1565px;
+        text-align: right;
+        font-size: 30px;
+        font-family: Jost;
+        font-weight: 600;
+        line-height: 160%;
+        color: #ffffff;
+        white-space: pre;
+      }
+
+      .music_1_447 {
+        position: absolute;
+        top: 590px;
+        left: 380px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 25px;
+        padding-right: 54px;
+        padding-bottom: 25px;
+        padding-left: 54px;
+        gap: 10px;
+        border-radius: 5px;
+        background-color: #d52027;
+        font-size: 18px;
+        font-family: Jost;
+        font-weight: 400;
+        line-height: 160%;
+        color: #ffffff;
+        white-space: pre;
+        text-decoration: none;
+        cursor: pointer;
+      }
+
+      .music_104401_29 {
+        width: 783px;
+        height: 917px;
+        position: absolute;
+        top: 163px;
+        left: 924px;
+      }
+
+      .music_104401_30 {
+        width: 100%;
+        height: 485px;
+        position: absolute;
+        top: 1694px;
+        left: -1px;
+        background-color: #f9f9f9;
+      }
+
+      .music_2_506 {
+        position: absolute;
+        top: 100px;
+        left: 381px;
+        font-size: 50px;
+        font-family: Jost;
+        font-weight: 600;
+        line-height: 160%;
+        color: #141024;
+        white-space: pre;
+      }
+
+      .music_2_527 {
+        position: absolute;
+        top: 240px;
+        left: 381px;
+        font-size: 24px;
+        font-family: Jost;
+        font-weight: 600;
+        line-height: 160%;
+        color: #141024;
+        white-space: pre;
+      }
+
+      .music_2_529 {
+        position: absolute;
+        top: 240px;
+        left: 781px;
+        font-size: 24px;
+        font-family: Jost;
+        font-weight: 600;
+        line-height: 160%;
+        color: #141024;
+        white-space: pre;
+      }
+
+      .music_2_531 {
+        position: absolute;
+        top: 240px;
+        left: 1181px;
+        font-size: 24px;
+        font-family: Jost;
+        font-weight: 600;
+        line-height: 160%;
+        color: #141024;
+        white-space: pre;
+      }
+
+      .music_2_528 {
+        width: 360px;
+        position: absolute;
+        top: 298px;
+        left: 381px;
+        font-size: 18px;
+        font-family: Jost;
+        font-weight: 400;
+        line-height: 160%;
+        color: rgba(20, 16, 36, 0.69);
+      }
+
+      .music_2_530 {
+        width: 360px;
+        position: absolute;
+        top: 298px;
+        left: 781px;
+        font-size: 18px;
+        font-family: Jost;
+        font-weight: 400;
+        line-height: 160%;
+        color: rgba(20, 16, 36, 0.69);
+      }
+
+      .music_2_532 {
+        width: 360px;
+        position: absolute;
+        top: 298px;
+        left: 1181px;
+        font-size: 18px;
+        font-family: Jost;
+        font-weight: 400;
+        line-height: 160%;
+        color: rgba(20, 16, 36, 0.69);
+      }
+
+      .music_104401_31 {
+        width: 24px;
+        height: 24px;
+        position: absolute;
+        top: 240px;
+        left: 1296px;
+      }
+
+      .music_104401_32 {
+        width: 100%;
+        height: 460px;
+        position: absolute;
+        top: 4065px;
+        left: 0;
+        background-color: #d52027;
+      }
+
+      .music_104401_33 {
+        width: 100%;
+        height: 460px;
+        position: absolute;
+        top: 0;
+        left: 0;
+      }
+
+      .music_104401_34 {
+        width: 500px;
+        height: 286px;
+        position: absolute;
+        top: 87px;
+        left: 980px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+      }
+
+      .music_2_539,
+      .music_2_540,
+      .music_2_541 {
+        width: 500px;
+        height: 64px;
+        position: relative;
+        border-radius: 5px;
+        background-color: #f6f6f6;
+      }
+
+      .music_2_542 {
+        width: 500px;
+        height: 64px;
+        position: relative;
+        border-radius: 5px;
+        background-color: #141024;
+      }
+
+      .music_2_543,
+      .music_2_544,
+      .music_2_545,
+      .music_2_546 {
+        display: none;
+      }
+
+      .form-input {
+        width: 100%;
+        height: 100%;
+        padding: 0 20px;
+        border: none;
+        background: none;
+        font-size: 18px;
+        font-family: Jost;
+        color: #141024;
+      }
+
+      .form-input::placeholder {
+        color: rgba(40, 41, 68, 0.69);
+      }
+
+      .form-button {
+        width: 100%;
+        height: 100%;
+        border: none;
+        background: none;
+        font-size: 18px;
+        font-family: Jost;
+        color: #ffffff;
+        cursor: pointer;
+      }
+
+      .music_2_547 {
+        width: 476px;
+        position: absolute;
+        top: 106px;
+        left: 440px;
+        font-size: 36px;
+        font-family: Jost;
+        font-weight: 600;
+        line-height: 130%;
+        color: #ffffff;
+        display: flex;
+        flex-direction: column;
+      }
+
+      .music_2_548 {
+        position: absolute;
+        top: 220px;
+        left: 440px;
+        font-size: 20px;
+        font-family: Jost;
+        font-weight: 400;
+        line-height: 130%;
+        color: #ffffff;
+        white-space: pre;
+      }
+
+      .music_1_458 {
+        position: absolute;
+        top: 1404px;
+        left: 380px;
+        font-size: 70px;
+        font-family: Jost;
+        font-weight: 600;
+        line-height: 160%;
+        color: #d52027;
+        white-space: pre;
+      }
+
+      .music_1_460 {
+        position: absolute;
+        top: 1404px;
+        left: 680px;
+        font-size: 70px;
+        font-family: Jost;
+        font-weight: 600;
+        line-height: 160%;
+        color: #d52027;
+        white-space: pre;
+      }
+
+      .music_1_462 {
+        position: absolute;
+        top: 1404px;
+        left: 980px;
+        font-size: 70px;
+        font-family: Jost;
+        font-weight: 600;
+        line-height: 160%;
+        color: #d52027;
+        white-space: pre;
+      }
+
+      .music_1_464 {
+        position: absolute;
+        top: 1404px;
+        left: 1280px;
+        font-size: 70px;
+        font-family: Jost;
+        font-weight: 600;
+        line-height: 160%;
+        color: #d52027;
+        white-space: pre;
+      }
+
+      .music_1_459 {
+        width: 260px;
+        position: absolute;
+        top: 1516px;
+        left: 380px;
+        font-size: 18px;
+        font-family: Jost;
+        font-weight: 400;
+        line-height: 160%;
+        color: rgba(20, 16, 36, 0.69);
+      }
+
+      .music_1_461 {
+        width: 260px;
+        position: absolute;
+        top: 1516px;
+        left: 680px;
+        font-size: 18px;
+        font-family: Jost;
+        font-weight: 400;
+        line-height: 160%;
+        color: rgba(20, 16, 36, 0.69);
+      }
+
+      .music_1_463 {
+        width: 236px;
+        position: absolute;
+        top: 1516px;
+        left: 980px;
+        font-size: 18px;
+        font-family: Jost;
+        font-weight: 400;
+        line-height: 160%;
+        color: rgba(20, 16, 36, 0.69);
+      }
+
+      .music_1_465 {
+        width: 260px;
+        position: absolute;
+        top: 1516px;
+        left: 1280px;
+        font-size: 18px;
+        font-family: Jost;
+        font-weight: 400;
+        line-height: 160%;
+        color: rgba(20, 16, 36, 0.69);
+      }
+
+      .music_104401_35 {
+        width: 1560px;
+        height: 886px;
+        position: absolute;
+        top: 2299px;
+        left: 380px;
+      }
+
+      .music_1_466 {
+        position: absolute;
+        top: 0;
+        left: 0;
+        font-size: 50px;
+        font-family: Jost;
+        font-weight: 600;
+        line-height: 160%;
+        color: #141024;
+        white-space: pre;
+      }
+
+      .music_1_491 {
+        position: absolute;
+        top: 660px;
+        left: 0;
+        font-size: 24px;
+        font-family: Jost;
+        font-weight: 600;
+        line-height: 160%;
+        color: #141024;
+        white-space: pre;
+      }
+
+      .music_1_493 {
+        position: absolute;
+        top: 660px;
+        left: 400px;
+        font-size: 24px;
+        font-family: Jost;
+        font-weight: 600;
+        line-height: 160%;
+        color: #141024;
+        white-space: pre;
+      }
+
+      .music_1_495 {
+        position: absolute;
+        top: 660px;
+        left: 800px;
+        font-size: 24px;
+        font-family: Jost;
+        font-weight: 600;
+        line-height: 160%;
+        color: #141024;
+        white-space: pre;
+      }
+
+      .music_1_497 {
+        position: absolute;
+        top: 660px;
+        left: 1200px;
+        font-size: 24px;
+        font-family: Jost;
+        font-weight: 600;
+        line-height: 160%;
+        color: #141024;
+        white-space: pre;
+      }
+
+      .music_1_492 {
+        position: absolute;
+        top: 708px;
+        left: 0;
+        font-size: 18px;
+        font-family: Jost;
+        font-weight: 400;
+        line-height: 160%;
+        color: rgba(20, 16, 36, 0.69);
+        white-space: pre;
+      }
+
+      .music_1_494 {
+        position: absolute;
+        top: 708px;
+        left: 400px;
+        font-size: 18px;
+        font-family: Jost;
+        font-weight: 400;
+        line-height: 160%;
+        color: rgba(20, 16, 36, 0.69);
+        white-space: pre;
+      }
+
+      .music_1_496 {
+        position: absolute;
+        top: 708px;
+        left: 800px;
+        font-size: 18px;
+        font-family: Jost;
+        font-weight: 400;
+        line-height: 160%;
+        color: rgba(20, 16, 36, 0.69);
+        white-space: pre;
+      }
+
+      .music_1_498 {
+        position: absolute;
+        top: 708px;
+        left: 1200px;
+        font-size: 18px;
+        font-family: Jost;
+        font-weight: 400;
+        line-height: 160%;
+        color: rgba(20, 16, 36, 0.69);
+        white-space: pre;
+      }
+
+      .music_1_467 {
+        width: 340px;
+        height: 500px;
+        position: absolute;
+        top: 140px;
+        left: 1200px;
+      }
+
+      .music_1_470 {
+        width: 360px;
+        height: 500px;
+        position: absolute;
+        top: 140px;
+        left: 0;
+      }
+
+      .music_1_468 {
+        width: 360px;
+        height: 500px;
+        position: absolute;
+        top: 140px;
+        left: 400px;
+      }
+
+      .music_1_469 {
+        width: 360px;
+        height: 500px;
+        position: absolute;
+        top: 140px;
+        left: 800px;
+      }
+
+      .music_1_472 {
+        width: 360px;
+        height: 5px;
+        position: absolute;
+        top: 863px;
+        left: 0;
+        border-radius: 40px;
+        background-color: rgba(20, 16, 36, 0.07);
+      }
+
+      .music_1_490 {
+        width: 260px;
+        height: 5px;
+        position: absolute;
+        top: 863px;
+        left: 0;
+        border-radius: 40px;
+        background-color: #141024;
+      }
+
+      .music_1_478 {
+        width: 40px;
+        height: 40px;
+        position: absolute;
+        top: 846px;
+        left: 1110px;
+      }
+
+      .music_1_480 {
+        width: 40px;
+        height: 40px;
+        position: absolute;
+        top: 846px;
+        left: 1060px;
+      }
+
+      .music_1_501 {
+        position: absolute;
+        top: 757px;
+        left: 0;
+        font-size: 18px;
+        font-family: Jost;
+        font-weight: 400;
+        line-height: 160%;
+        color: #d52027;
+        white-space: pre;
+      }
+
+      .music_1_502 {
+        position: absolute;
+        top: 757px;
+        left: 400px;
+        font-size: 18px;
+        font-family: Jost;
+        font-weight: 400;
+        line-height: 160%;
+        color: #d52027;
+        white-space: pre;
+      }
+
+      .music_1_503 {
+        position: absolute;
+        top: 757px;
+        left: 800px;
+        font-size: 18px;
+        font-family: Jost;
+        font-weight: 400;
+        line-height: 160%;
+        color: #d52027;
+        white-space: pre;
+      }
+
+      .music_1_504 {
+        position: absolute;
+        top: 757px;
+        left: 1200px;
+        font-size: 18px;
+        font-family: Jost;
+        font-weight: 400;
+        line-height: 160%;
+        color: #d52027;
+        white-space: pre;
+      }
+
+      .music_104401_36 {
+        width: 1160px;
+        height: 640px;
+        position: absolute;
+        top: 3305px;
+        left: 380px;
+      }
+
+      .music_2_568 {
+        position: absolute;
+        top: 0;
+        left: 0;
+        font-size: 50px;
+        font-family: Jost;
+        font-weight: 600;
+        line-height: 160%;
+        color: #141024;
+        white-space: pre;
+      }
+
+      .music_2_555 {
+        width: 360px;
+        height: 500px;
+        position: absolute;
+        top: 140px;
+        left: 0;
+        border-radius: 20px;
+        background-color: #141024;
+      }
+
+      .music_2_570 {
+        position: absolute;
+        top: 180px;
+        left: 117px;
+        text-align: center;
+        font-size: 30px;
+        font-family: Jost;
+        font-weight: 600;
+        line-height: 160%;
+        color: #ffffff;
+        white-space: pre;
+      }
+
+      .music_2_575 {
+        position: absolute;
+        top: 200px;
+        left: 505px;
+        text-align: center;
+        font-size: 30px;
+        font-family: Jost;
+        font-weight: 600;
+        line-height: 160%;
+        color: #141024;
+        white-space: pre;
+      }
+
+      .music_2_581 {
+        position: absolute;
+        top: 200px;
+        left: 905px;
+        text-align: center;
+        font-size: 30px;
+        font-family: Jost;
+        font-weight: 600;
+        line-height: 160%;
+        color: #141024;
+        white-space: pre;
+      }
+
+      .music_2_571 {
+        position: absolute;
+        top: 311px;
+        left: 68px;
+        text-align: center;
+        font-size: 50px;
+        font-family: Jost;
+        font-weight: 600;
+        line-height: 160%;
+        color: #ffffff;
+        white-space: pre;
+      }
+
+      .music_2_576 {
+        position: absolute;
+        top: 311px;
+        left: 472px;
+        text-align: center;
+        font-size: 50px;
+        font-family: Jost;
+        font-weight: 600;
+        line-height: 160%;
+        color: #141024;
+        white-space: pre;
+      }
+
+      .music_2_582 {
+        position: absolute;
+        top: 311px;
+        left: 871px;
+        text-align: center;
+        font-size: 50px;
+        font-family: Jost;
+        font-weight: 600;
+        line-height: 160%;
+        color: #141024;
+        white-space: pre;
+      }
+
+      .music_2_572 {
+        width: 250px;
+        position: absolute;
+        top: 411px;
+        left: 55px;
+        text-align: center;
+        font-size: 18px;
+        font-family: Jost;
+        font-weight: 400;
+        line-height: 160%;
+        color: #ffffff;
+      }
+
+      .music_2_577 {
+        width: 250px;
+        position: absolute;
+        top: 411px;
+        left: 455px;
+        text-align: center;
+        font-size: 18px;
+        font-family: Jost;
+        font-weight: 400;
+        line-height: 160%;
+        color: #141024;
+        white-space: pre;
+      }
+
+      .music_2_583 {
+        width: 250px;
+        position: absolute;
+        top: 411px;
+        left: 855px;
+        text-align: center;
+        font-size: 18px;
+        font-family: Jost;
+        font-weight: 400;
+        line-height: 160%;
+        color: #141024;
+        white-space: pre;
+      }
+
+      .music_2_573 {
+        width: 280px;
+        position: absolute;
+        top: 521px;
+        left: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 25px;
+        padding-right: 54px;
+        padding-bottom: 25px;
+        padding-left: 54px;
+        gap: 10px;
+        border-radius: 5px;
+        background-color: #d52027;
+        font-size: 18px;
+        font-family: Jost;
+        font-weight: 400;
+        line-height: 160%;
+        color: #ffffff;
+        white-space: pre;
+      }
+
+      .music_2_578 {
+        width: 280px;
+        position: absolute;
+        top: 501px;
+        left: 440px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 25px;
+        padding-right: 54px;
+        padding-bottom: 25px;
+        padding-left: 54px;
+        gap: 10px;
+        border-radius: 5px;
+        background-color: #d52027;
+        font-size: 18px;
+        font-family: Jost;
+        font-weight: 400;
+        line-height: 160%;
+        color: #ffffff;
+        white-space: pre;
+      }
+
+      .music_2_584 {
+        width: 280px;
+        position: absolute;
+        top: 501px;
+        left: 840px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 25px;
+        padding-right: 54px;
+        padding-bottom: 25px;
+        padding-left: 54px;
+        gap: 10px;
+        border-radius: 5px;
+        background-color: #d52027;
+        font-size: 18px;
+        font-family: Jost;
+        font-weight: 400;
+        line-height: 160%;
+        color: #ffffff;
+        white-space: pre;
+      }
+
+      .music_2_569 {
+        width: 360px;
+        height: 460px;
+        position: absolute;
+        top: 160px;
+        left: 400px;
+        border-radius: 20px;
+        border-width: 1px;
+        border-style: solid;
+        border-color: rgba(20, 16, 36, 0.2);
+      }
+
+      .music_2_580 {
+        width: 360px;
+        height: 460px;
+        position: absolute;
+        top: 160px;
+        left: 800px;
+        border-radius: 20px;
+        border-width: 1px;
+        border-style: solid;
+        border-color: rgba(20, 16, 36, 0.2);
+      }
+
+      .music_11_137 {
+        position: absolute;
+        top: 4618px;
+        left: 100px;
+        text-align: center;
+        font-size: 16px;
+        font-family: Jost;
+        font-weight: 400;
+        line-height: 160%;
+        color: rgba(255, 255, 255, 0.69);
+        white-space: pre;
+      }
+
+      .music_1_470,
+      .music_1_468,
+      .music_1_469,
+      .music_1_467 {
+        border-radius: 32px;
+      }
+
+      #modal-orlova-bg {
+        display: none;
+        position: fixed;
+        z-index: 1000;
+        top: 0; left: 0;
+        width: 100vw; height: 100vh;
+        background: rgba(20,16,36,0.4);
+        justify-content: center;
+        align-items: center;
+      }
+      #modal-orlova {
+        background: #fff;
+        border-radius: 16px;
+        max-width: 700px;
+        width: 100%;
+        margin: 40px auto 0 auto;
+        box-shadow: 0 8px 32px rgba(20,16,36,0.15);
+        padding: 40px 48px 40px 48px;
+        position: relative;
+        font-family: 'Jost', Arial, sans-serif;
+        overflow: visible;
+      }
+      #modal-orlova-close {
+        position: absolute;
+        top: 32px;
+        right: 48px;
+        background: none;
+        border: none;
+        font-size: 18px;
+        color: #39364F;
+        cursor: pointer;
+        font-family: 'Jost', Arial, sans-serif;
+      }
+      .modal-orlova-header {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        gap: 32px;
+        margin-bottom: 24px;
+      }
+      .modal-orlova-photo {
+        width: 120px;
+        height: 120px;
+        object-fit: cover;
+        border-radius: 16px;
+        flex-shrink: 0;
+      }
+      .modal-orlova-maininfo {
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+        margin-top: 8px;
+      }
+      .modal-orlova-name {
+        font-size: 28px;
+        font-weight: 700;
+        color: #141024;
+        margin-bottom: 0;
+      }
+      .modal-orlova-role {
+        font-size: 18px;
+        color: #888;
+        font-weight: 400;
+        margin-bottom: 8px;
+      }
+      .modal-orlova-socials {
+        display: flex;
+        gap: 12px;
+        margin-top: 8px;
+      }
+      .modal-orlova-socials span {
+        display: inline-flex;
+        width: 32px; height: 32px;
+        background: #141024;
+        border-radius: 50%;
+        align-items: center;
+        justify-content: center;
+      }
+      .modal-orlova-tabs {
+        display: flex;
+        gap: 48px;
+        margin-bottom: 0;
+        margin-top: 8px;
+        border-bottom: 1.5px solid #ececec;
+      }
+      .modal-orlova-tab {
+        font-size: 20px;
+        font-weight: 400;
+        color: #141024;
+        padding-bottom: 12px;
+        cursor: pointer;
+        position: relative;
+        transition: color 0.2s;
+      }
+      .modal-orlova-tab.active {
+        color: #d52027;
+        font-weight: 600;
+      }
+      .modal-orlova-tab.active::after {
+        content: '';
+        display: block;
+        position: absolute;
+        left: 0; right: 0; bottom: -2px;
+        height: 3px;
+        border-radius: 2px;
+        background: #d52027;
+      }
+      #modal-orlova-content {
+        max-height: 260px;
+        overflow-y: auto;
+        margin-top: 24px;
+        padding-right: 8px;
+      }
+      #modal-orlova-content::-webkit-scrollbar {
+        width: 6px;
+      }
+      #modal-orlova-content::-webkit-scrollbar-thumb {
+        background: #141024;
+        border-radius: 4px;
+      }
+      #modal-orlova-content::-webkit-scrollbar-track {
+        background: #f5f5f5;
+        border-radius: 4px;
+      }
+      .modal-orlova-block-title {
+        font-size: 22px;
+        font-weight: 600;
+        color: #141024;
+        margin: 24px 0 8px 0;
+      }
+      .modal-orlova-block-text {
+        font-size: 18px;
+        color: #141024;
+        font-weight: 400;
+        margin-bottom: 0;
+        line-height: 1.5;
+      }
+
+      @media (max-width: 1200px) {
+        .wrapper {
+          width: 100% !important;
+          min-width: 0 !important;
+          padding: 0 20px;
+        }
+        .music_1_350 {
+          width: 100vw !important;
+          min-width: 0 !important;
+        }
+      }
+
+      @media (max-width: 900px) {
+        .music_104401_35 {
+          left: 0 !important;
+          width: 100vw !important;
+          min-width: 0 !important;
+          position: static !important;
+          display: flex !important;
+          flex-direction: column !important;
+          align-items: center !important;
+          padding: 0 !important;
+        }
+        .music_1_470, .music_1_468, .music_1_469, .music_1_467 {
+          width: 90vw !important;
+          height: auto !important;
+          left: 0 !important;
+          position: static !important;
+          margin: 0 auto 24px auto !important;
+          display: block !important;
+          max-width: 320px !important;
+        }
+        .music_1_491, .music_1_493, .music_1_495, .music_1_497,
+        .music_1_492, .music_1_494, .music_1_496, .music_1_498 {
+          left: 0 !important;
+          position: static !important;
+          display: block !important;
+          text-align: center !important;
+          width: 100% !important;
+          font-size: 18px !important;
+        }
+        .music_1_466 {
+          font-size: 24px !important;
+          text-align: center !important;
+        }
+        .music_1_441, .music_1_442, .music_1_443 {
+          font-size: 18px !important;
+        }
+        .music_1_447 {
+          width: 100% !important;
+          font-size: 16px !important;
+          padding: 16px 0 !important;
+          text-align: center !important;
+        }
+      }
+
+      @media (max-width: 600px) {
+        .wrapper {
+          padding: 0 5px !important;
+        }
+        .music_1_350 {
+          padding: 0 !important;
+        }
+        .music_1_466, .music_1_491, .music_1_493, .music_1_495, .music_1_497 {
+          font-size: 16px !important;
+        }
+        .music_1_470, .music_1_468, .music_1_469, .music_1_467 {
+          width: 98vw !important;
+          max-width: 240px !important;
+        }
+        .music_1_441, .music_1_442, .music_1_443 {
+          font-size: 14px !important;
+        }
+        .music_1_447 {
+          font-size: 14px !important;
+          padding: 12px 0 !important;
+        }
+        .music_104401_28 {
+          left: 0 !important;
+          top: 0 !important;
+          width: 100vw !important;
+          min-width: 0 !important;
+          display: flex !important;
+          flex-direction: row !important;
+          justify-content: space-around !important;
+          font-size: 14px !important;
+          padding: 8px 0 !important;
+        }
+        .music_1_400, .music_2_594 {
+          min-width: 0 !important;
+          width: 100vw !important;
+        }
+      }
+
+      body, html {
+        overflow-x: hidden !important;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="music_1_350">
+        <div class="music_1_400"></div>
+        <div class="music_2_594"></div>
+        <span class="music_1_401">ROBO SCHOOL</span><span class="music_1_402">Курсы повышения квалификации по робототехнике для педагогов начальной школы</span><span class="music_6_51">ROBO.SCHOOL</span
+        ><svg
+          class="music_6_53"
+          fill="#ffffff"
+          width="224"
+          height="23"
+          viewBox="0 0 224 23"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg">
+          <path
+            d="M5.47 12.49H10.72L17.29 22H11.35L5.47 12.49ZM0.22 0.999999H5.29V22H0.22V0.999999ZM3.4 5.29V0.999999H7.87C9.67 0.999999 11.17 1.29 12.37 1.87C13.57 2.45 14.48 3.26 15.1 4.3C15.72 5.32 16.03 6.51 16.03 7.87C16.03 9.21 15.72 10.4 15.1 11.44C14.48 12.46 13.57 13.26 12.37 13.84C11.17 14.42 9.67 14.71 7.87 14.71H3.4V10.78H7.51C8.19 10.78 8.77 10.68 9.25 10.48C9.75 10.26 10.13 9.95 10.39 9.55C10.65 9.13 10.78 8.63 10.78 8.05C10.78 7.47 10.65 6.98 10.39 6.58C10.13 6.16 9.75 5.84 9.25 5.62C8.77 5.4 8.19 5.29 7.51 5.29H3.4ZM23.8138 11.5C23.8138 12.74 24.0538 13.84 24.5338 14.8C25.0338 15.74 25.7238 16.48 26.6038 17.02C27.5038 17.56 28.5538 17.83 29.7538 17.83C30.9338 17.83 31.9638 17.56 32.8438 17.02C33.7438 16.48 34.4338 15.74 34.9138 14.8C35.4138 13.84 35.6638 12.74 35.6638 11.5C35.6638 10.26 35.4238 9.17 34.9438 8.23C34.4638 7.27 33.7838 6.52 32.9038 5.98C32.0238 5.44 30.9738 5.17 29.7538 5.17C28.5538 5.17 27.5038 5.44 26.6038 5.98C25.7238 6.52 25.0338 7.27 24.5338 8.23C24.0538 9.17 23.8138 10.26 23.8138 11.5ZM18.4438 11.5C18.4438 9.88 18.7238 8.4 19.2838 7.06C19.8638 5.72 20.6638 4.56 21.6838 3.58C22.7038 2.6 23.9038 1.85 25.2838 1.33C26.6638 0.789999 28.1538 0.519999 29.7538 0.519999C31.3738 0.519999 32.8638 0.789999 34.2238 1.33C35.6038 1.85 36.8038 2.6 37.8238 3.58C38.8438 4.56 39.6338 5.72 40.1938 7.06C40.7538 8.4 41.0338 9.88 41.0338 11.5C41.0338 13.12 40.7538 14.61 40.1938 15.97C39.6538 17.33 38.8738 18.51 37.8538 19.51C36.8538 20.51 35.6638 21.29 34.2838 21.85C32.9038 22.39 31.3938 22.66 29.7538 22.66C28.0938 22.66 26.5738 22.39 25.1938 21.85C23.8138 21.29 22.6138 20.51 21.5938 19.51C20.5938 18.51 19.8138 17.33 19.2538 15.97C18.7138 14.61 18.4438 13.12 18.4438 11.5ZM48.0625 11.56V9.34H51.4525C52.0325 9.34 52.5225 9.25 52.9225 9.07C53.3425 8.89 53.6625 8.64 53.8825 8.32C54.1025 7.98 54.2125 7.57 54.2125 7.09C54.2125 6.37 53.9725 5.83 53.4925 5.47C53.0125 5.11 52.3325 4.93 51.4525 4.93H49.3525V18.07H51.9325C52.5925 18.07 53.1825 17.99 53.7025 17.83C54.2225 17.65 54.6325 17.37 54.9325 16.99C55.2525 16.59 55.4125 16.05 55.4125 15.37C55.4125 14.93 55.3225 14.55 55.1425 14.23C54.9625 13.91 54.7125 13.65 54.3925 13.45C54.0725 13.25 53.7025 13.11 53.2825 13.03C52.8825 12.93 52.4325 12.88 51.9325 12.88H48.0625V10.12H52.5025C53.5225 10.12 54.5125 10.23 55.4725 10.45C56.4325 10.67 57.3025 11.03 58.0825 11.53C58.8625 12.01 59.4825 12.63 59.9425 13.39C60.4225 14.13 60.6625 15.03 60.6625 16.09C60.6625 17.49 60.3225 18.62 59.6425 19.48C58.9825 20.34 58.0425 20.98 56.8225 21.4C55.6025 21.8 54.1625 22 52.5025 22H44.2825V0.999999H51.9925C53.4525 0.999999 54.7325 1.2 55.8325 1.6C56.9525 1.98 57.8325 2.57 58.4725 3.37C59.1325 4.15 59.4625 5.14 59.4625 6.34C59.4625 7.44 59.1325 8.38 58.4725 9.16C57.8325 9.94 56.9525 10.54 55.8325 10.96C54.7325 11.36 53.4525 11.56 51.9925 11.56H48.0625ZM68.3744 11.5C68.3744 12.74 68.6144 13.84 69.0944 14.8C69.5944 15.74 70.2844 16.48 71.1644 17.02C72.0644 17.56 73.1144 17.83 74.3144 17.83C75.4944 17.83 76.5244 17.56 77.4044 17.02C78.3044 16.48 78.9944 15.74 79.4744 14.8C79.9744 13.84 80.2244 12.74 80.2244 11.5C80.2244 10.26 79.9844 9.17 79.5044 8.23C79.0244 7.27 78.3444 6.52 77.4644 5.98C76.5844 5.44 75.5344 5.17 74.3144 5.17C73.1144 5.17 72.0644 5.44 71.1644 5.98C70.2844 6.52 69.5944 7.27 69.0944 8.23C68.6144 9.17 68.3744 10.26 68.3744 11.5ZM63.0044 11.5C63.0044 9.88 63.2844 8.4 63.8444 7.06C64.4244 5.72 65.2244 4.56 66.2444 3.58C67.2644 2.6 68.4644 1.85 69.8444 1.33C71.2244 0.789999 72.7144 0.519999 74.3144 0.519999C75.9344 0.519999 77.4244 0.789999 78.7844 1.33C80.1644 1.85 81.3644 2.6 82.3844 3.58C83.4044 4.56 84.1944 5.72 84.7544 7.06C85.3144 8.4 85.5944 9.88 85.5944 11.5C85.5944 13.12 85.3144 14.61 84.7544 15.97C84.2144 17.33 83.4344 18.51 82.4144 19.51C81.4144 20.51 80.2244 21.29 78.8444 21.85C77.4644 22.39 75.9544 22.66 74.3144 22.66C72.6544 22.66 71.1344 22.39 69.7544 21.85C68.3744 21.29 67.1744 20.51 66.1544 19.51C65.1544 18.51 64.3744 17.33 63.8144 15.97C63.2744 14.61 63.0044 13.12 63.0044 11.5ZM87.7248 19.96C87.7248 19.2 87.9948 18.55 88.5348 18.01C89.0748 17.47 89.7448 17.2 90.5448 17.2C91.3848 17.2 92.0648 17.47 92.5848 18.01C93.1048 18.55 93.3648 19.2 93.3648 19.96C93.3648 20.72 93.1048 21.37 92.5848 21.91C92.0648 22.45 91.3848 22.72 90.5448 22.72C89.7448 22.72 89.0748 22.45 88.5348 21.91C87.9948 21.37 87.7248 20.72 87.7248 19.96ZM99.9128 14.62C100.333 15.38 100.803 16.04 101.323 16.6C101.863 17.16 102.443 17.59 103.063 17.89C103.703 18.19 104.373 18.34 105.073 18.34C105.813 18.34 106.423 18.16 106.903 17.8C107.383 17.42 107.623 16.91 107.623 16.27C107.623 15.73 107.483 15.3 107.203 14.98C106.923 14.64 106.473 14.32 105.853 14.02C105.233 13.72 104.413 13.38 103.393 13C102.893 12.82 102.313 12.57 101.653 12.25C101.013 11.93 100.403 11.52 99.8228 11.02C99.2428 10.5 98.7628 9.88 98.3828 9.16C98.0028 8.42 97.8128 7.53 97.8128 6.49C97.8128 5.25 98.1328 4.18 98.7728 3.28C99.4328 2.38 100.313 1.7 101.413 1.24C102.533 0.759999 103.773 0.519999 105.133 0.519999C106.533 0.519999 107.743 0.749999 108.763 1.21C109.803 1.67 110.663 2.25 111.343 2.95C112.023 3.65 112.543 4.36 112.903 5.08L109.033 7.24C108.733 6.74 108.383 6.31 107.983 5.95C107.603 5.57 107.173 5.28 106.693 5.08C106.233 4.86 105.733 4.75 105.193 4.75C104.473 4.75 103.923 4.91 103.543 5.23C103.163 5.53 102.973 5.91 102.973 6.37C102.973 6.85 103.153 7.27 103.513 7.63C103.893 7.99 104.423 8.32 105.103 8.62C105.803 8.92 106.643 9.24 107.623 9.58C108.363 9.86 109.053 10.19 109.693 10.57C110.333 10.93 110.893 11.37 111.373 11.89C111.873 12.41 112.263 13.01 112.543 13.69C112.823 14.37 112.963 15.15 112.963 16.03C112.963 17.09 112.743 18.04 112.303 18.88C111.883 19.7 111.303 20.39 110.563 20.95C109.843 21.51 109.013 21.93 108.073 22.21C107.153 22.51 106.203 22.66 105.223 22.66C103.863 22.66 102.593 22.42 101.413 21.94C100.253 21.44 99.2428 20.77 98.3828 19.93C97.5228 19.09 96.8528 18.17 96.3728 17.17L99.9128 14.62ZM120.673 11.5C120.673 12.78 120.963 13.89 121.543 14.83C122.123 15.75 122.883 16.45 123.823 16.93C124.783 17.41 125.833 17.65 126.973 17.65C127.973 17.65 128.853 17.52 129.613 17.26C130.373 17 131.053 16.66 131.653 16.24C132.253 15.82 132.783 15.37 133.243 14.89V20.35C132.403 21.01 131.483 21.53 130.483 21.91C129.483 22.29 128.213 22.48 126.673 22.48C124.993 22.48 123.443 22.22 122.023 21.7C120.603 21.18 119.383 20.43 118.363 19.45C117.343 18.47 116.553 17.31 115.993 15.97C115.433 14.63 115.153 13.14 115.153 11.5C115.153 9.86 115.433 8.37 115.993 7.03C116.553 5.69 117.343 4.53 118.363 3.55C119.383 2.57 120.603 1.82 122.023 1.3C123.443 0.779999 124.993 0.519999 126.673 0.519999C128.213 0.519999 129.483 0.709999 130.483 1.09C131.483 1.47 132.403 1.99 133.243 2.65V8.11C132.783 7.63 132.253 7.18 131.653 6.76C131.053 6.32 130.373 5.98 129.613 5.74C128.853 5.48 127.973 5.35 126.973 5.35C125.833 5.35 124.783 5.59 123.823 6.07C122.883 6.55 122.123 7.25 121.543 8.17C120.963 9.09 120.673 10.2 120.673 11.5ZM138.798 13.21V8.65H154.698V13.21H138.798ZM151.488 0.999999H156.558V22H151.488V0.999999ZM137.388 0.999999H142.458V22H137.388V0.999999ZM165.142 11.5C165.142 12.74 165.382 13.84 165.862 14.8C166.362 15.74 167.052 16.48 167.932 17.02C168.832 17.56 169.882 17.83 171.082 17.83C172.262 17.83 173.292 17.56 174.172 17.02C175.072 16.48 175.762 15.74 176.242 14.8C176.742 13.84 176.992 12.74 176.992 11.5C176.992 10.26 176.752 9.17 176.272 8.23C175.792 7.27 175.112 6.52 174.232 5.98C173.352 5.44 172.302 5.17 171.082 5.17C169.882 5.17 168.832 5.44 167.932 5.98C167.052 6.52 166.362 7.27 165.862 8.23C165.382 9.17 165.142 10.26 165.142 11.5ZM159.772 11.5C159.772 9.88 160.052 8.4 160.612 7.06C161.192 5.72 161.992 4.56 163.012 3.58C164.032 2.6 165.232 1.85 166.612 1.33C167.992 0.789999 169.482 0.519999 171.082 0.519999C172.702 0.519999 174.192 0.789999 175.552 1.33C176.932 1.85 178.132 2.6 179.152 3.58C180.172 4.56 180.962 5.72 181.522 7.06C182.082 8.4 182.362 9.88 182.362 11.5C182.362 13.12 182.082 14.61 181.522 15.97C180.982 17.33 180.202 18.51 179.182 19.51C178.182 20.51 176.992 21.29 175.612 21.85C174.232 22.39 172.722 22.66 171.082 22.66C169.422 22.66 167.902 22.39 166.522 21.85C165.142 21.29 163.942 20.51 162.922 19.51C161.922 18.51 161.142 17.33 160.582 15.97C160.042 14.61 159.772 13.12 159.772 11.5ZM189.781 11.5C189.781 12.74 190.021 13.84 190.501 14.8C191.001 15.74 191.691 16.48 192.571 17.02C193.471 17.56 194.521 17.83 195.721 17.83C196.901 17.83 197.931 17.56 198.811 17.02C199.711 16.48 200.401 15.74 200.881 14.8C201.381 13.84 201.631 12.74 201.631 11.5C201.631 10.26 201.391 9.17 200.911 8.23C200.431 7.27 199.751 6.52 198.871 5.98C197.991 5.44 196.941 5.17 195.721 5.17C194.521 5.17 193.471 5.44 192.571 5.98C191.691 6.52 191.001 7.27 190.501 8.23C190.021 9.17 189.781 10.26 189.781 11.5ZM184.411 11.5C184.411 9.88 184.691 8.4 185.251 7.06C185.831 5.72 186.631 4.56 187.651 3.58C188.671 2.6 189.871 1.85 191.251 1.33C192.631 0.789999 194.121 0.519999 195.721 0.519999C197.341 0.519999 198.831 0.789999 200.191 1.33C201.571 1.85 202.771 2.6 203.791 3.58C204.811 4.56 205.601 5.72 206.161 7.06C206.721 8.4 207.001 9.88 207.001 11.5C207.001 13.12 206.721 14.61 206.161 15.97C205.621 17.33 204.841 18.51 203.821 19.51C202.821 20.51 201.631 21.29 200.251 21.85C198.871 22.39 197.361 22.66 195.721 22.66C194.061 22.66 192.541 22.39 191.161 21.85C189.781 21.29 188.581 20.51 187.561 19.51C186.561 18.51 185.781 17.33 185.221 15.97C184.681 14.61 184.411 13.12 184.411 11.5ZM210.249 0.999999H215.319V17.65H223.749V22H210.249V0.999999Z"
+            fill="white" />
+        </svg>
+        <div class="music_1_457" id="about">
+          <span class="music_1_457_0_11">Robo School</span
+          ><span class="music_1_457_11_116"> – учреждение для формирования кадрового педагогического резерва в сфере робототехники и программирования</span>
+        </div>
+        <div class="music_104401_28"><a href="#about" class="music_1_441" style="cursor:pointer;text-decoration:none;">О школе</a><a href="#trainers" class="music_1_442" style="cursor:pointer;text-decoration:none;">Тренеры</a><a href="#packages-title" class="music_1_443" style="cursor:pointer;text-decoration:none;">Стоимость</a></div>
+        <span class="music_1_446">+7 800 000 11 22</span><span class="music_6_52">+7 800 000 11 22</span>
+        <a href="#packages" class="music_1_447">Записаться на курс</a>
+        <img
+          class="music_104401_29"
+          src="https://seal-img.nos-jd.163yun.com/obj/w5rCgMKVw6DCmGzCmsK-/59770381554/bcdc/1299/dac0/1092df69a20f22cbe080adb32c746863.png" />
+        <div class="music_104401_30">
+          <span class="music_2_506">Что вы получите после курса</span><span class="music_2_527">Удостоверение</span><span class="music_2_529">Знания</span><span class="music_2_531">Практику</span
+          ><span class="music_2_528">Дающее право преподавать робототехнику для детей 6-12 лет в образовательных учреждениях</span
+          ><span class="music_2_530">По основам разработки учебно-методических комплексов<br />по робототехнике и программированию</span
+          ><span class="music_2_532">Возможность пройти практику  по преподаванию робототехники на базе R:ED LAB (в оффлайн или онлайн формате)</span
+          ><img
+            class="music_104401_31"
+            src="https://seal-img.nos-jd.163yun.com/obj/w5rCgMKVw6DCmGzCmsK-/59770384565/2a34/4713/0948/ec4eeae74ae31a3595c891087e4c1318.jpg" />
+        </div>
+        <div class="music_104401_32">
+          <img
+            class="music_104401_33"
+            src="https://seal-img.nos-jd.163yun.com/obj/w5rCgMKVw6DCmGzCmsK-/59770384978/8a13/bb11/6083/68846d39d3da7ee0fbeaa325cc0e5bac.png" />
+          <div class="music_104401_34">
+            <div class="music_2_539">
+              <input type="text" class="form-input" placeholder="Имя">
+            </div>
+            <div class="music_2_540">
+              <input type="tel" class="form-input" placeholder="Телефон">
+            </div>
+            <div class="music_2_541">
+              <input type="email" class="form-input" placeholder="E-mail">
+            </div>
+            <div class="music_2_542">
+              <button type="submit" class="form-button">Оформить заявку</button>
+            </div>
+          </div>
+          <span class="music_2_547">Запишитесь на курс<br>со скидкой 10%</span>
+          <span class="music_2_548">Акция действительна до 10 марта 2022 года</span>
+        </div>
+        <span class="music_1_458">10</span><span class="music_1_460">20</span><span class="music_1_462">100</span><span class="music_1_464">10 000</span
+        ><span class="music_1_459">УМК по различным направлениям по робототехнике</span><span class="music_1_461">Школ, в которых запущена робототехника</span
+        ><span class="music_1_463">Педагогов прошедших курсы повышения квалификации</span><span class="music_1_465">Обученных детей на базе собственных центров</span>
+        <div class="music_104401_35" id="trainers">
+          <span class="music_1_466">Профессиональные тренеры</span><span class="music_1_491">Ирина Лайм</span><span class="music_1_493">Марина Орлова</span><span class="music_1_495">Максим Петров</span
+          ><span class="music_1_497">Константин Назаров</span><span class="music_1_492">преподаватель по робототехнике</span><span class="music_1_494">преподаватель по робототехнике</span
+          ><span class="music_1_496">преподаватель по программированию</span><span class="music_1_498">преподаватель по робототехнике</span
+          ><img
+            class="music_1_467"
+            src="https://seal-img.nos-jd.163yun.com/obj/w5rCgMKVw6DCmGzCmsK-/59770384661/2469/7bcf/114f/186156530c633894235fca359d12d0a8.jpg" /><img
+            class="music_1_470"
+            src="https://seal-img.nos-jd.163yun.com/obj/w5rCgMKVw6DCmGzCmsK-/59770382833/5bad/0120/6887/0e461e66515ba4c1cafb36020f078575.jpg" /><img
+            class="music_1_468"
+            src="https://seal-img.nos-jd.163yun.com/obj/w5rCgMKVw6DCmGzCmsK-/59770383938/3d5e/7688/7a1f/8ab63b81bbc838b41fc615c2a807f4d9.jpg" /><img
+            class="music_1_469"
+            src="https://seal-img.nos-jd.163yun.com/obj/w5rCgMKVw6DCmGzCmsK-/59770382886/d6cf/c16d/53d7/96d85eeb9548af0a1f1c7d3802eb6573.jpg" />
+          <div class="music_1_472"></div>
+          <div class="music_1_490"></div>
+          <svg
+            class="music_1_478"
+            id="slider-right"
+            fill="#ffffff"
+            width="40"
+            height="40"
+            viewBox="0 0 40 40"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg">
+            <path
+              fill-rule="evenodd"
+              clip-rule="evenodd"
+              d="M36.6668 20C36.6668 29.2 29.1835 36.6666 20.0002 36.6666L19.5339 36.6602C10.5492 36.413 3.3335 29.044 3.3335 20C3.3335 10.8166 10.8002 3.33331 20.0002 3.33331C29.1835 3.33331 36.6668 10.8166 36.6668 20ZM16.7002 13.3333C16.2168 13.8333 16.2168 14.6166 16.7168 15.1L21.6335 20L16.7168 24.9C16.2168 25.3833 16.2168 26.1833 16.7002 26.6666C17.2002 27.1666 17.9835 27.1666 18.4668 26.6666L24.2835 20.8833C24.5168 20.65 24.6502 20.3333 24.6502 20C24.6502 19.6666 24.5168 19.35 24.2835 19.1166L18.4668 13.3333C18.2335 13.0833 17.9168 12.9666 17.6002 12.9666C17.2668 12.9666 16.9502 13.0833 16.7002 13.3333Z"
+              fill="#141024" />
+          </svg>
+          <svg
+            class="music_1_480"
+            id="slider-left"
+            fill="#ffffff"
+            width="40"
+            height="40"
+            viewBox="0 0 40 40"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg">
+            <path
+              fill-rule="evenodd"
+              clip-rule="evenodd"
+              d="M3.33317 20C3.33317 29.2 10.8165 36.6666 19.9998 36.6666L20.4661 36.6602C29.4508 36.413 36.6665 29.044 36.6665 20C36.6665 10.8166 29.1998 3.33331 19.9998 3.33331C10.8165 3.33331 3.33317 10.8166 3.33317 20ZM23.2998 13.3333C23.7832 13.8333 23.7832 14.6166 23.2832 15.1L18.3665 20L23.2832 24.9C23.7832 25.3833 23.7832 26.1833 23.2998 26.6666C22.7998 27.1666 22.0165 27.1666 21.5332 26.6666L15.7165 20.8833C15.4832 20.65 15.3498 20.3333 15.3498 20C15.3498 19.6666 15.4832 19.35 15.7165 19.1166L21.5332 13.3333C21.7665 13.0833 22.0832 12.9666 22.3998 12.9666C22.7332 12.9666 23.0498 13.0833 23.2998 13.3333Z"
+              fill="#141024" />
+          </svg>
+          <span class="music_1_501">Подробнее</span><span class="music_1_502">Подробнее</span><span class="music_1_503">Подробнее</span><span class="music_1_504">Подробнее</span>
+        </div>
+        <div id="packages" class="music_104401_36">
+          <span class="music_2_568" id="packages-title">Выберите нужный пакет</span>
+          <div class="music_2_555"></div>
+          <span class="music_2_570">– PRO –</span><span class="music_2_575">– ROBO –</span><span class="music_2_581">– PROG –</span><span class="music_2_571">20.000 ₽</span
+          ><span class="music_2_576">15.000 ₽</span><span class="music_2_582">10.000 ₽</span><span class="music_2_572">УМК по робототетхнике  и программированию</span
+          ><span class="music_2_577">УМК по робототетхнике </span><span class="music_2_583">УМК по программированию</span><span class="music_2_573">Оставить заявку</span
+          ><span class="music_2_578">Оставить заявку</span><span class="music_2_584">Оставить заявку</span>
+          <div class="music_2_569"></div>
+          <div class="music_2_580"></div>
+        </div>
+        <span class="music_11_137">© ROBO.SCHOOL</span>
+      </div>
+    </div>
+    <!-- Модальное окно для Марина Орлова -->
+    <div id="modal-orlova-bg">
+      <div id="modal-orlova">
+        <button id="modal-orlova-close">Закрыть</button>
+        <div class="modal-orlova-header">
+          <img src="marina_orlova.jpg" alt="Марина Орлова" class="modal-orlova-photo">
+          <div class="modal-orlova-maininfo">
+            <div class="modal-orlova-name">Марина Орлова</div>
+            <div class="modal-orlova-role">преподаватель по робототехнике</div>
+            <div class="modal-orlova-socials">
+              <span>
+                <!-- Facebook SVG: буква f в круге -->
+                <svg width="18" height="18" viewBox="0 0 32 32" fill="none"><circle cx="16" cy="16" r="16" fill="#141024"/><path d="M20.5 10.5h-2a1 1 0 0 0-1 1v2h3l-.5 3h-2.5v8h-3v-8h-2v-3h2v-2a3 3 0 0 1 3-3h2v3z" fill="#fff"/></svg>
+              </span>
+              <span>
+                <!-- Instagram SVG: камера с точкой -->
+                <svg width="18" height="18" viewBox="0 0 32 32" fill="none"><circle cx="16" cy="16" r="16" fill="#141024"/><rect x="9" y="9" width="14" height="14" rx="4" stroke="#fff" stroke-width="2" fill="none"/><circle cx="16" cy="16" r="3" stroke="#fff" stroke-width="2" fill="none"/><circle cx="21.5" cy="12.5" r="1" fill="#fff"/></svg>
+              </span>
+            </div>
+          </div>
+        </div>
+        <div class="modal-orlova-tabs">
+          <div class="modal-orlova-tab active">Образование</div>
+          <div class="modal-orlova-tab">Опыт работы</div>
+          <div class="modal-orlova-tab">Награды</div>
+        </div>
+        <div id="modal-orlova-content">
+          <div class="modal-orlova-block-text">
+            Сентябрь 1995 — Июнь 2000<br>
+            Санкт-Петербургский политехнический университет Петра Великого<br>
+            Факультет: Компьютерных наук и технологий<br>
+            Специальность: Математика и компьютерные науки<br>
+            Форма обучения: Очная
+          </div>
+          <div class="modal-orlova-block-title">Курсы и тренинги</div>
+          <div class="modal-orlova-block-text">
+            Сентябрь 1995 — Июнь 2000<br>
+            Санкт-Петербургский политехнический университет Петра Великого<br>
+            Факультет: Компьютерных наук и технологий<br>
+            Специальность: Математика и компьютерные науки<br>
+            Форма обучения: Очная
+          </div>
+        </div>
+      </div>
+    </div>
+    <script>
+    const trainers = [
+      {
+        name: "Ирина Лайм",
+        role: "преподаватель по робототехнике",
+        img: "irina_lime.jpg"
+      },
+      {
+        name: "Марина Орлова",
+        role: "преподаватель по робототехнике",
+        img: "marina_orlova.jpg"
+      },
+      {
+        name: "Максим Петров",
+        role: "преподаватель по программированию",
+        img: "maxim_petrov.jpg"
+      },
+      {
+        name: "Константин Назаров",
+        role: "преподаватель по робототехнике",
+        img: "konstantin_nazarov.jpg"
+      },
+      {
+        name: "Лиза Весенняя",
+        role: "преподаватель по робототехнике",
+        img: "liza_vesennyaya.jpg"
+      }
+    ];
+
+    let current = 0;
+
+    function renderTrainers() {
+      const trainerImgs = [
+        document.querySelector('.music_1_470'),
+        document.querySelector('.music_1_468'),
+        document.querySelector('.music_1_469'),
+        document.querySelector('.music_1_467')
+      ];
+      const trainerNames = [
+        document.querySelector('.music_1_491'),
+        document.querySelector('.music_1_493'),
+        document.querySelector('.music_1_495'),
+        document.querySelector('.music_1_497')
+      ];
+      const trainerRoles = [
+        document.querySelector('.music_1_492'),
+        document.querySelector('.music_1_494'),
+        document.querySelector('.music_1_496'),
+        document.querySelector('.music_1_498')
+      ];
+      const trainerLinks = [
+        document.querySelector('.music_1_501'),
+        document.querySelector('.music_1_502'),
+        document.querySelector('.music_1_503'),
+        document.querySelector('.music_1_504')
+      ];
+
+      for (let i = 0; i < 4; i++) {
+        const trainer = trainers[current + i];
+        if (trainer) {
+          trainerImgs[i].src = trainer.img;
+          trainerNames[i].textContent = trainer.name;
+          trainerRoles[i].textContent = trainer.role;
+          trainerLinks[i].style.display = '';
+        } else {
+          trainerImgs[i].src = '';
+          trainerNames[i].textContent = '';
+          trainerRoles[i].textContent = '';
+          trainerLinks[i].style.display = 'none';
+        }
+      }
+    }
+
+    document.getElementById('slider-left').addEventListener('click', function() {
+      if (current > 0) {
+        current--;
+        renderTrainers();
+      }
+    });
+    document.getElementById('slider-right').addEventListener('click', function() {
+      if (current < trainers.length - 4) {
+        current++;
+        renderTrainers();
+      }
+    });
+
+    renderTrainers();
+
+    // Открытие модального окна по клику на 'Подробнее' под Мариной Орловой
+    const moreBtns = [
+      document.querySelector('.music_1_501'),
+      document.querySelector('.music_1_502'),
+      document.querySelector('.music_1_503'),
+      document.querySelector('.music_1_504')
+    ];
+    function openOrlovaModalIfNeeded() {
+      // Найти Марину Орлову среди видимых тренеров
+      const trainerNames = [
+        document.querySelector('.music_1_491'),
+        document.querySelector('.music_1_493'),
+        document.querySelector('.music_1_495'),
+        document.querySelector('.music_1_497')
+      ];
+      for (let i = 0; i < 4; i++) {
+        if (trainerNames[i] && trainerNames[i].textContent.trim() === 'Марина Орлова') {
+          moreBtns[i].addEventListener('click', function() {
+            document.getElementById('modal-orlova-bg').style.display = 'flex';
+          });
+        }
+      }
+    }
+    // При каждом рендере тренеров навешиваем обработчик
+    const origRenderTrainers = renderTrainers;
+    renderTrainers = function() {
+      origRenderTrainers();
+      openOrlovaModalIfNeeded();
+    };
+    openOrlovaModalIfNeeded();
+    // Закрытие модального окна
+    const modalOrlovaBg = document.getElementById('modal-orlova-bg');
+    document.getElementById('modal-orlova-close').onclick = function() {
+      modalOrlovaBg.style.display = 'none';
+    };
+    modalOrlovaBg.onclick = function(e) {
+      if (e.target === modalOrlovaBg) modalOrlovaBg.style.display = 'none';
+    };
+    </script>
+  </body>
+</html>
